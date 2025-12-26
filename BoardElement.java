@@ -2,6 +2,8 @@ public abstract class BoardElement {
     protected int rows = 8;
     protected int cols = 8;
 
+    public abstract char getSymbol();
+
     protected BoardElement(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
